@@ -17,8 +17,7 @@ Het ontwikkelen van een automatisch bewateringssysteem voor planten met behulp v
 
 #### Gebruikte Libraries
 - Arduino.h (standaard Arduino library)
-- Adafruit GFX
-- Adafruit 
+- Wire.h (voor I2C communicatie)
 - u8g2 (Aansturing Oled panel)
 
 ### 2. Procesbeschrijving
