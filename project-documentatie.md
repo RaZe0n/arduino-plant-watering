@@ -69,3 +69,5 @@ Wat dit project extra bijzonder maakt, is dat het niet alleen een leerzame ervar
 ### Toekomstplannen
 
 Het project is nog niet afgerond in de zin dat er nog uitbreidingsmogelijkheden zijn. Een luchtvochtigheidssensor ligt klaar om geïmplementeerd te worden zodra de benodigde soldeervaardigheden zijn opgedaan. Deze uitbreiding zal het systeem nog intelligenter maken door ook rekening te houden met de luchtvochtigheid bij het bepalen van de bewateringsfrequentie. Het project dient dus als een goede basis voor verdere ontwikkeling en verbetering. 
+
+[Link naar videomateriaal op OneDrive](https://npcg-my.sharepoint.com/:v:/g/personal/fmbruinzeel_st_noorderpoort_nl1/EcY6Gwl-1C5JpAvCs7VAy8oB03Bo1ltVrjRtvPel-TYyrg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&email=n.vermeulen%40noorderpoort.nl&e=EVf7AX) Alleen toegangkijk voor Niels Vermeulen, Docent Noorderpoort.
