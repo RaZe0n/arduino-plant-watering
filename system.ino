@@ -35,11 +35,11 @@ void updateDisplay(int moisture, float distance, long duration, bool tankEmpty, 
   u8g2.clearBuffer();
   u8g2.setFont(u8g2_font_6x12_tr);
 
-  // Lijn 1: 
+  // lijn 1: 
   String mLine = "Moisture: " + getMoistureStatus(moisture) + " (" + String(moisture) + ")";
   u8g2.drawStr(0, 10, mLine.c_str());
 
-  // Lijn 2: 
+  // lijn 2: 
   if (duration == 0 || tankEmpty) {
     u8g2.drawStr(0, 20, "Tank: Empty");
   } else {
@@ -48,7 +48,7 @@ void updateDisplay(int moisture, float distance, long duration, bool tankEmpty, 
     u8g2.drawStr(0, 20, tLine.c_str());
   }
 
-  // Lijn 3: 
+  // lijn 3: 
   String bLine = watering
     ? "Watering... " + String(countdownMs / 1000) + "s left"
     : "Next check in: " + String(countdownMs / 1000) + "s";
@@ -82,7 +82,7 @@ void loop() {
 
   // water check
   if (needWater && !tankEmpty) {
-    Serial.println("🌿 Watering...");
+    Serial.println("Watering...");
 
     for (int t = pumpDuration; t > 0; t -= 1000) {
       digitalWrite(pumpPin, HIGH);
@@ -101,7 +101,7 @@ void loop() {
     }
 
     digitalWrite(pumpPin, LOW);
-    Serial.println("✅ Done watering");
+    Serial.println("Done watering");
   } else {
     if (!needWater) {
       u8g2.clearBuffer();
@@ -122,7 +122,7 @@ void loop() {
 
       // Lijn 3: 
       u8g2.drawStr(0, 30, "Skipping watering...");
-      Serial.println("❌ Skipped watering");
+      Serial.println("Skipped watering");
       u8g2.sendBuffer();
 
       delay(4000);
